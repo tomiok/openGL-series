@@ -85,7 +85,7 @@ int main() {
         glClear(GL_COLOR_BUFFER_BIT);
         glUseProgram(shaderProgram);
         glBindVertexArray(VAO);
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+        glDrawArrays(GL_POINTS, 0, 3);
         glfwSwapBuffers(window);
 
         glfwPollEvents();
