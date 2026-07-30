@@ -1,0 +1,3 @@
+/home/tomasito/CLionProjects/oglTutorial/ep2-square/build/CMakeFiles/ep2-square.dir
+/home/tomasito/CLionProjects/oglTutorial/ep2-square/build/CMakeFiles/edit_cache.dir
+/home/tomasito/CLionProjects/oglTutorial/ep2-square/build/CMakeFiles/rebuild_cache.dir
