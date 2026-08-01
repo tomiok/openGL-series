@@ -1,1 +1,0 @@
-/usr/bin/c++ "CMakeFiles/ep2-points.dir/main.cpp.o" "CMakeFiles/ep2-points.dir/glad.c.o" -o ep2-points  /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 -ldl /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 

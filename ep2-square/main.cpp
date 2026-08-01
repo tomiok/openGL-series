@@ -25,7 +25,8 @@ int main() {
     float vertices[] = {
         -0.5f, -0.5f * float(sqrt(3)) / 3, 0.0f, // Lower left corner
          0.5f, -0.5f * float(sqrt(3)) / 3, 0.0f, // Lower right corner
-         -0.5f, 0.5f * float(sqrt(3)) *3 / 3, 0.0f // Upper corner
+         0.5f, 0.5f * float(sqrt(3)) *3 / 3, 0.0f, // Upper right corner
+         -0.5f, 0.5f * float(sqrt(3)) *3 / 3, 0.0f // Upper left corner
     };
 
     //create window
@@ -85,7 +86,7 @@ int main() {
         glClear(GL_COLOR_BUFFER_BIT);
         glUseProgram(shaderProgram);
         glBindVertexArray(VAO);
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+        glDrawArrays(GL_TRIANGLES, 0, 4);
         glfwSwapBuffers(window);
 
         glfwPollEvents();

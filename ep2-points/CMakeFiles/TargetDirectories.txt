@@ -1,3 +1,0 @@
-/home/tomasito/CLionProjects/oglTutorial/ep2-points/CMakeFiles/ep2-points.dir
-/home/tomasito/CLionProjects/oglTutorial/ep2-points/CMakeFiles/edit_cache.dir
-/home/tomasito/CLionProjects/oglTutorial/ep2-points/CMakeFiles/rebuild_cache.dir
