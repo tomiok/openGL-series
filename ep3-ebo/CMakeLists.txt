@@ -3,7 +3,15 @@ project(ep3-ebo)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ep3-ebo main.cpp glad.c)
+add_executable(ep3-ebo main.cpp glad.c
+        shaders.h
+        shaders.cpp
+        EBO.h
+        VBO.cpp
+        VAO.h
+        VAO.cpp
+        VBO.h
+        EBO.cpp)
 target_include_directories(ep3-ebo PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}
         ${CMAKE_CURRENT_SOURCE_DIR}/dependencies
