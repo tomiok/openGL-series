@@ -11,7 +11,9 @@ add_executable(ep3-ebo main.cpp glad.c
         VAO.h
         VAO.cpp
         VBO.h
-        EBO.cpp)
+        EBO.cpp
+        stb_image.h
+        stb.cpp)
 target_include_directories(ep3-ebo PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}
         ${CMAKE_CURRENT_SOURCE_DIR}/dependencies
